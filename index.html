@@ -1,0 +1,822 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>从一辆小推车说起 · 沂蒙精神的传承与创新</title>
+<meta name="description" content="一堂给外地朋友的沂蒙课。从淮海战役的支前小道，到今天临沂的物流大道。">
+<link rel="stylesheet" href="css/style.css">
+<noscript><style>.rv{opacity:1!important;transform:none!important}.tr-row{opacity:1!important}main>section{display:flex!important}</style></noscript>
+</head>
+<body data-act="0">
+
+<div id="bgs"></div>
+<div class="vignette"></div>
+<div class="grain"></div>
+
+<div class="brand">沂蒙 · 从一辆小推车说起</div>
+<nav class="rail" id="rail" aria-label="章节进度"></nav>
+<div class="rail-num"><b id="railCur">01</b> / 15</div>
+
+<!-- 图形符号库 -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="cart" viewBox="66 86 426 226">
+    <circle cx="140" cy="250" r="58"/>
+    <circle cx="140" cy="250" r="6"/>
+    <g opacity=".55">
+      <line x1="140" y1="192" x2="140" y2="308"/>
+      <line x1="82" y1="250" x2="198" y2="250"/>
+      <line x1="99" y1="209" x2="181" y2="291"/>
+      <line x1="99" y1="291" x2="181" y2="209"/>
+    </g>
+    <path d="M140 192 L 402 168"/>
+    <path d="M140 250 L 402 226"/>
+    <path d="M402 168 L 402 226"/>
+    <path d="M402 168 L 476 146"/>
+    <path d="M140 192 L 140 156"/>
+    <path d="M92 156 L 196 152"/>
+    <path d="M168 168 C 186 126 250 112 292 126 C 322 136 340 152 344 166"/>
+    <path d="M206 128 C 220 106 258 100 278 110"/>
+  </symbol>
+</svg>
+
+<main>
+
+<section class="slide hero" data-act="0" data-bg="cover" data-title="封面">
+  <div class="hero-inner">
+    <p class="kicker rv">临沂大学 · 沂蒙文化课</p>
+    <h1 class="rv" style="--d:.1s">从一辆<br><em>小推车</em>说起</h1>
+    <p class="sub rv" style="--d:.25s">
+      沂蒙精神的传承与创新 —— 给外地朋友的一堂课
+      <span>THE YIMENG SPIRIT · 2026</span>
+    </p>
+    <button class="cart-btn rv" id="enterBtn" style="--d:.4s"><i></i>推 一 下</button>
+  </div>
+  <div class="cart-wrap" id="heroCart">
+    <svg class="cart-svg" style="stroke:var(--ink);fill:none;stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round"><use href="#cart"/></svg>
+  </div>
+  <div class="scroll-hint">SCROLL</div>
+</section>
+
+<section class="slide" data-act="0" data-bg="cover" data-title="三个误会">
+  <div class="wrap">
+    <p class="kicker rv">01 · 先破个误会</p>
+    <h2 class="title rv" style="--d:.05s">外地人来临沂，<br>通常会误会三件事。</h2>
+    <p class="lead rv" style="--d:.15s">点开每一张。数字都在那儿，我只是换了个说法。</p>
+
+    <div class="myths">
+      <button class="myth rv" style="--d:.1s">
+        <div class="myth-in">
+          <div class="myth-face front">
+            <span class="idx">MISREAD 01</span>
+            <p class="q">沂蒙 = 穷山沟？</p>
+            <span class="tap">点 一 下</span>
+          </div>
+          <div class="myth-face back">
+            <p class="num"><span data-count="6556">0</span><small>亿元</small></p>
+            <p class="exp">2024 年临沂 GDP，山东第 5，全国百强市第 46。<br>这是山东人口最多、面积最大的市。</p>
+          </div>
+        </div>
+      </button>
+
+      <button class="myth rv" style="--d:.2s">
+        <div class="myth-in">
+          <div class="myth-face front">
+            <span class="idx">MISREAD 02</span>
+            <p class="q">红色 = 老古董？</p>
+            <span class="tap">点 一 下</span>
+          </div>
+          <div class="myth-face back">
+            <p class="num"><span data-count="6605">0</span><small>亿元</small></p>
+            <p class="exp">2024 年临沂商城交易额，物流总额破万亿，快递 24 亿件。<br>这座城市最赚钱的生意，是"把货送到别人手上"。</p>
+          </div>
+        </div>
+      </button>
+
+      <button class="myth rv" style="--d:.3s">
+        <div class="myth-in">
+          <div class="myth-face front">
+            <span class="idx">MISREAD 03</span>
+            <p class="q">精神 = 喊口号？</p>
+            <span class="tap">点 一 下</span>
+          </div>
+          <div class="myth-face back">
+            <p class="num"><span data-count="38">0</span><small>亿元</small></p>
+            <p class="exp">兰陵代村 2024 年村集体各业总产值。<br>1999 年王传喜接手的，是一个负债 380 万的乱村。</p>
+          </div>
+        </div>
+      </button>
+    </div>
+
+    <p class="punch rv" style="--d:.4s">所以今天我不想跟你讲精神。<b>我想先讲一辆车。</b></p>
+  </div>
+</section>
+
+<section class="slide" data-act="0" data-bg="mountain" data-title="沂蒙在哪">
+  <div class="wrap geo">
+    <div class="geo-txt">
+      <p class="kicker rv">02 · 地理判决</p>
+      <h2 class="geo-quote rv" style="--d:.05s">四塞之崮，<br>舟车不通，<br>土货不出，外货不入。<span>—— 旧志对沂蒙的记载</span></h2>
+      <ul class="geo-list">
+        <li class="rv" style="--d:.15s">沂蒙不是一个市，是<b>沂山与蒙山之间</b>的一片区域，主体在临沂。1.72 万平方公里，山地丘陵约占三分之二。</li>
+        <li class="rv" style="--d:.22s">这段话不是修辞，是判决：山把人围住了，货出不去，人进不来，就等于穷。</li>
+        <li class="rv" style="--d:.29s">但同一片山，在 1938—1949 年成了<b>最稳的根据地</b>——地形挡得住敌人，也藏得住人。</li>
+        <li class="rv" style="--d:.36s"><b>崮</b>，四周陡峭、顶面平坦的"方山"，沂蒙独有。孟良崮、岱崮都是崮。2019 年，这里成了世界地质公园。</li>
+      </ul>
+    </div>
+    <div class="map-box rv" style="--d:.2s">
+      <svg id="contourMap" viewBox="0 0 520 460" aria-label="沂蒙山区等高线示意图"></svg>
+      <div class="map-tip" id="mapTip"><b>崮（gù）</b>顶平、壁陡，四面如刀削。打仗时是天然的堡垒，种地时是天然的绝境。</div>
+      <div class="map-anchor">↑ 济南 240 公里 · 高铁 1 小时 20 分</div>
+    </div>
+  </div>
+</section>
+
+<section class="slide" data-act="1" data-bg="road" data-title="十三年">
+  <div class="wrap">
+    <p class="kicker rv">03 · 第一幕</p>
+    <h2 class="title rv" style="--d:.05s">十三年，一群人做了一个选择。</h2>
+
+    <div class="tl-read rv" style="--d:.12s">
+      <div class="tl-year" id="tlYear">1938</div>
+      <div class="tl-body">
+        <h3 id="tlTitle">八路军 115 师入鲁</h3>
+        <p id="tlText">队伍进山，第一件事不是打仗，是减租减息。佃农第一次能把自家种的那部分粮，留在自己缸里。</p>
+      </div>
+    </div>
+
+    <div class="tl-track rv" style="--d:.2s">
+      <div class="tl-line"><b id="tlProgress"></b></div>
+      <div class="tl-dots" id="tlDots"></div>
+    </div>
+
+    <button class="dou-btn rv" style="--d:.3s" id="openDou"><i></i>试 一 下 · 用 一 颗 豆 子 选 村 长</button>
+  </div>
+</section>
+
+<section class="slide" data-act="1" data-bg="road" data-title="四个人">
+  <div class="wrap">
+    <p class="kicker rv">04 · 四个普通人</p>
+    <h2 class="title rv" style="--d:.05s">他们没有一个，是"英雄设定"。</h2>
+    <p class="lead rv" style="--d:.12s">他们是灶台边、门槛上、地里的人。点开看看他们做了什么。</p>
+
+    <div class="four">
+      <button class="pcard rv" style="--d:.1s">
+        <div class="pcard-in">
+          <div class="pface">
+            <div class="icon"><svg viewBox="0 0 80 80"><circle cx="40" cy="40" r="30" opacity=".3"/><path d="M30 26c0-4 3-6 6-6s6 2 6 6v14"/><path d="M42 34c0-3 2-5 5-5s5 2 5 5v18c0 8-6 14-14 14h-4c-8 0-14-6-14-14V38c0-3 2-5 5-5s5 2 5 5"/></svg></div>
+            <div>
+              <p class="who">01 · 她</p>
+              <p class="name">她一辈子<br>没说过一句话。</p>
+            </div>
+          </div>
+          <div class="pface back">
+            <p class="name">明德英</p>
+            <p>1941 年，她在自家门口发现一个浑身是血、渴得昏死过去的八路军小战士。她是哑巴。她解开衣襟，把奶水喂给了他。</p>
+            <q>她这辈子没说过"我爱这个国家"。她说不出话。</q>
+          </div>
+        </div>
+      </button>
+
+      <button class="pcard rv" style="--d:.18s">
+        <div class="pcard-in">
+          <div class="pface">
+            <div class="icon"><svg viewBox="0 0 80 80"><path d="M18 46c0-12 10-22 22-22s22 10 22 22"/><path d="M12 46h56"/><path d="M28 46v6M52 46v6"/><circle cx="34" cy="32" r="2"/><circle cx="46" cy="32" r="2"/></svg></div>
+            <div>
+              <p class="who">02 · 她</p>
+              <p class="name">她养大了 86 个孩子，<br>自己的 4 个孙子没留住。</p>
+            </div>
+          </div>
+          <div class="pface back">
+            <p class="name">王换于</p>
+            <p>她在自家办起"战时托儿所"，前后抚养了 86 个革命者的孩子。那年月没粮食，她的 4 个孙子先后夭折。</p>
+            <q>咱的孩子没了还能生，同志的孩子没了，就断了根。</q>
+          </div>
+        </div>
+      </button>
+
+      <button class="pcard rv" style="--d:.26s">
+        <div class="pcard-in">
+          <div class="pface">
+            <div class="icon"><svg viewBox="0 0 80 80"><circle cx="40" cy="44" r="24"/><path d="M16 44h48"/><path d="M26 20l6 14M54 20l-6 14"/></svg></div>
+            <div>
+              <p class="who">03 · 她们</p>
+              <p class="name">两天，<br>5000 斤煎饼。</p>
+            </div>
+          </div>
+          <div class="pface back">
+            <p class="name">沂蒙六姐妹</p>
+            <p>孟良崮战役前，6 个二十出头的姑娘接到任务：两天内把 5000 斤粮食烙成煎饼送到前线。她们带着全村人守着鏊子，日夜不歇。</p>
+            <q>张玉梅烙着烙着一头栽下去——饿晕的。醒过来喝口水，接着烙。</q>
+          </div>
+        </div>
+      </button>
+
+      <button class="pcard rv" style="--d:.34s">
+        <div class="pcard-in">
+          <div class="pface">
+            <div class="icon"><svg viewBox="0 0 80 80"><path d="M14 62h52"/><path d="M18 62V34l10-8v36M34 62V26l10-6v42M50 62V32l12-6v36"/><path d="M14 34h52" opacity=".4"/></svg></div>
+            <div>
+              <p class="who">04 · 他们</p>
+              <p class="name">147 个人，<br>和一堵石墙。</p>
+            </div>
+          </div>
+          <div class="pface back">
+            <p class="name">渊子崖</p>
+            <p>1941 年 12 月，一千多日伪军围村。312 户人家拿着土枪、铡刀、铁锨和石头，打了整整一天。147 人战死，没一个人退。</p>
+            <q>毛泽东在《解放日报》上题词：村自卫战的楷模。</q>
+          </div>
+        </div>
+      </button>
+    </div>
+  </div>
+</section>
+
+<section class="morph" id="morph" data-act="1" data-bg="road" data-title="88万辆小推车">
+  <div class="morph-sticky">
+    <div class="morph-stage">
+      <div class="morph-visual">
+        <div class="dust" id="dust"></div>
+        <svg class="mv-cart" id="mvCart" viewBox="66 86 426 226" style="stroke:var(--ink);fill:none;stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round">
+          <g class="wheel" id="cartWheel">
+            <circle cx="140" cy="250" r="58"/>
+            <circle cx="140" cy="250" r="6"/>
+            <g opacity=".55">
+              <line x1="140" y1="192" x2="140" y2="308"/>
+              <line x1="82" y1="250" x2="198" y2="250"/>
+              <line x1="99" y1="209" x2="181" y2="291"/>
+              <line x1="99" y1="291" x2="181" y2="209"/>
+            </g>
+          </g>
+          <path d="M140 192 L 402 168"/>
+          <path d="M140 250 L 402 226"/>
+          <path d="M402 168 L 402 226"/>
+          <path d="M402 168 L 476 146"/>
+          <path d="M140 192 L 140 156"/>
+          <path d="M92 156 L 196 152"/>
+          <path d="M168 168 C 186 126 250 112 292 126 C 322 136 340 152 344 166"/>
+          <path d="M206 128 C 220 106 258 100 278 110"/>
+        </svg>
+
+        <svg class="mv-truck" id="mvTruck" viewBox="0 0 560 300" style="stroke:var(--ink);fill:none;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round;opacity:0">
+          <rect x="34" y="52" width="310" height="152" rx="3"/>
+          <line x1="112" y1="52" x2="112" y2="204" opacity=".3"/>
+          <line x1="190" y1="52" x2="190" y2="204" opacity=".3"/>
+          <line x1="268" y1="52" x2="268" y2="204" opacity=".3"/>
+          <path d="M344 204 L 344 92 L 436 92 L 476 140 L 514 140 L 514 204 Z"/>
+          <path d="M356 100 L 428 100 L 462 138" opacity=".5"/>
+          <line x1="20" y1="204" x2="540" y2="204" opacity=".35"/>
+          <g class="wheel">
+            <circle cx="118" cy="212" r="28"/><circle cx="118" cy="212" r="7"/>
+            <circle cx="200" cy="212" r="28"/><circle cx="200" cy="212" r="7"/>
+            <circle cx="430" cy="212" r="28"/><circle cx="430" cy="212" r="7"/>
+            <circle cx="494" cy="212" r="28"/><circle cx="494" cy="212" r="7"/>
+          </g>
+        </svg>
+      </div>
+
+      <div class="morph-txt">
+        <div class="step" data-step="0">
+          <small>1948 · 淮海战役</small>
+          <h3>543 万民工，<br>88 万辆小推车。</h3>
+          <p>他们推了 4.3 亿斤粮食上前线。抗战到解放战争，沂蒙有 <b>21.4 万人参军</b>、<b>120 万人次支前</b>、<b>10.5 万人牺牲</b>。</p>
+        </div>
+        <div class="step" data-step="1">
+          <small>关键在哪儿</small>
+          <h3>小推车不是武器，<br>是<b style="color:var(--red-hi)">农具</b>。</h3>
+          <p>他们推出去的不是弹药，是自家的口粮，和自家吃饭用的那辆车。<br><br><b>把吃饭的家伙押上去，才叫押上全部。</b></p>
+        </div>
+        <div class="step" data-step="2">
+          <small>2024 · 同一双手</small>
+          <h3>车变了，<br>动作没变。</h3>
+          <p>今天这条路跑的是 24 亿件快递、破万亿的物流总额。<b>1948 年这叫支前，2024 年这叫物流。</b></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="morph-nums">
+      <div><b>543 万</b><span>支前民工</span></div>
+      <div><b>88 万</b><span>辆小推车</span></div>
+      <div><b>4.3 亿</b><span>斤粮食</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="slide" data-act="2" data-bg="highway" data-title="三次升级">
+  <div class="wrap">
+    <p class="kicker rv">05 · 第二幕</p>
+    <h2 class="title rv" style="--d:.05s">同一条路，三次升级。</h2>
+
+    <div class="acts">
+      <div class="act rv" style="--d:.1s">
+        <p class="yr">1950s — 1970s</p>
+        <div class="ico"><svg viewBox="0 0 90 46"><path d="M4 10h82"/><path d="M14 10v16M76 10v16"/><path d="M6 26h16v12H6zM68 26h16v12H68z"/></svg></div>
+        <h4>肩挑人抬</h4>
+        <p>没有机械，就用人。厉家寨把荒山改造成梯田，1957 年毛泽东批示"愚公移山，改造中国"。修水库、架电线——<b>先解决"能不能活"，再谈"能不能富"</b>。</p>
+      </div>
+      <div class="act rv" style="--d:.2s">
+        <p class="yr">1980s — 2010s</p>
+        <div class="ico"><svg viewBox="0 0 90 46"><rect x="6" y="16" width="34" height="20"/><path d="M40 26h16l8 10H40z"/><circle cx="18" cy="38" r="5"/><circle cx="52" cy="38" r="5"/><circle cx="68" cy="38" r="5"/></svg></div>
+        <h4>车轮滚滚</h4>
+        <p>从西郊"大棚底"起步，长成 136 个专业批发市场，"南义乌、北临沂"。核心竞争力不是便宜，是<b>物流成本比全国平均低 20%–30%</b>。</p>
+      </div>
+      <div class="act rv" style="--d:.3s">
+        <p class="yr">2010s — 今天</p>
+        <div class="ico"><svg viewBox="0 0 90 46"><circle cx="16" cy="34" r="6"/><circle cx="46" cy="12" r="6"/><circle cx="76" cy="30" r="6"/><path d="M21 30l20-13M52 16l19 10M16 34h60" opacity=".6"/></svg></div>
+        <h4>数据流动</h4>
+        <p>2024 年直播电商网络零售额 825 亿、快递 24 亿件、2 万名专业主播。"前店后厂"变成了<b>"前播后仓"</b>。</p>
+      </div>
+    </div>
+
+    <div class="cost rv" style="--d:.35s">
+      <div class="cost-row a"><span>全国平均</span><div class="bar"><i data-w="100" style="background:var(--ink-3)"></i></div><em>100</em></div>
+      <div class="cost-row b"><span>临沂</span><div class="bar"><i data-w="74"></i></div><em>~74</em></div>
+    </div>
+
+    <p class="punch rv" style="--d:.4s">临沂人最擅长的能力，八十年没变过：<b>组织货源，把东西送到最需要它的人手里。</b></p>
+  </div>
+</section>
+
+<section class="slide" data-act="2" data-bg="village" data-title="接着干">
+  <div class="wrap">
+    <p class="kicker rv">06 · 三种"接着干"</p>
+    <h2 class="title rv" style="--d:.05s">传承不是复读，<br>是接着往下做。</h2>
+
+    <div class="people">
+      <div class="person rv" style="--d:.1s">
+        <p class="tag">01 · 一个村</p>
+        <h4>王传喜</h4>
+        <p class="place">兰陵县 · 代村</p>
+        <p>1999 年接手时，村集体负债 380 多万，班子瘫了、人心散了。他做的第一件事不是招商，是把地集中起来、把债还了、把人心拢回来。后来，他拉上周边 11 个村、2.6 万农民一起干。</p>
+        <p class="kpi">2024 年产值 <b>38</b> 亿 · 人均纯收入 <b>7</b> 万多</p>
+      </div>
+
+      <div class="person rv" style="--d:.2s">
+        <p class="tag">02 · 一座山</p>
+        <h4>九间棚</h4>
+        <p class="place">平邑县 · 海拔 640 米</p>
+        <p>9 间石棚，是全村全部家当。上世纪他们干的事很"笨"：把电线杆一根根抬上山，把水一级级引上山。先通电、再通水、再修路，最后才做金银花和旅游。<br><br><b style="color:var(--ink)">次序感，是这个村最值得学的东西。</b></p>
+        <p class="kpi">先解决最要命的<b>那件事</b></p>
+      </div>
+
+      <div class="person empty rv" style="--d:.3s" id="emptyPerson">
+        <p class="tag">03 · 一个年轻人</p>
+        <h4>这个人，还没填</h4>
+        <p>返乡做电商、做研学、做民宿的 95 后 / 00 后。<br>这一格我留给你自己去采访——<b style="color:var(--red-hi)">点开看问什么</b>。</p>
+        <ul class="qs">
+          <li>您小时候，家里一年能吃上几回白面？</li>
+          <li>第一次看见汽车 / 手机，是哪一年？</li>
+          <li>年轻时走一趟临沂城，要多久？现在呢？</li>
+          <li>这四十年，村里最大的变化是什么？</li>
+          <li>有没有哪一年特别难？怎么过来的？</li>
+          <li>您希望孙子辈记住什么？</li>
+          <li>您觉得"沂蒙精神"这四个字，说得对不对？</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="slide" data-act="2" data-bg="soup" data-title="来临沂">
+  <div class="wrap">
+    <p class="kicker rv">07 · 可验证清单</p>
+    <h2 class="title rv" style="--d:.05s">你来，我带你走一遍。</h2>
+
+    <div class="grid4 rv" style="--d:.1s">
+      <div class="cell">
+        <h4><i></i>看历史</h4>
+        <ul>
+          <li><span>·</span><span>华东革命烈士陵园 / 沂蒙革命纪念馆（免费，周一闭馆）</span></li>
+          <li><span>·</span><span>孟良崮战役纪念馆</span></li>
+          <li><span>·</span><span>红嫂家乡旅游区（沂南常山庄）</span></li>
+          <li><span>·</span><span>山东省政府旧址（莒南大店）</span></li>
+          <li><span>·</span><span>大青山突围纪念地</span></li>
+        </ul>
+      </div>
+      <div class="cell">
+        <h4><i></i>看山水</h4>
+        <ul>
+          <li><span>·</span><span>蒙山龟蒙顶 · 1156 米，山东第二高峰</span></li>
+          <li><span>·</span><span>岱崮地貌 · 世界地质公园</span></li>
+          <li><span>·</span><span>沂河夜景 · "点靓沂河"</span></li>
+          <li><span>·</span><span>竹泉村 · 石头房子、泉水绕村</span></li>
+        </ul>
+      </div>
+      <div class="cell">
+        <h4><i></i>吃一顿</h4>
+        <ul>
+          <li><span>·</span><span><b style="color:var(--amber)">糁</b>（读 sá）—— 牛肉浓汤冲鸡蛋配油条，凌晨 5 点就排队</span></li>
+          <li><span>·</span><span><b style="color:var(--amber)">沂蒙煎饼</b>—— 薄得透光，卷大葱、卷咸菜、卷一切。六姐妹烙的就是它</span></li>
+          <li><span>·</span><span>临沂炒鸡 · 八宝豆豉 · 光棍鸡</span></li>
+        </ul>
+        <p class="note">"好吃"是文化最容易被记住的部分。</p>
+      </div>
+      <div class="cell">
+        <h4><i></i>看今天</h4>
+        <ul>
+          <li><span>·</span><span>临沂商城 / 国际商贸城 · 136 个专业市场</span></li>
+          <li><span>·</span><span>物流园区 · 货物 24 小时发全国</span></li>
+          <li><span>·</span><span>直播间 · 2 万名专业主播</span></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="route rv" style="--d:.2s">
+      <p class="rt">两天<br>一夜</p>
+      <div><b>DAY 1</b>上午 沂蒙革命纪念馆 → 中午 一碗糁 + 煎饼 → 下午 红嫂家乡（常山庄）→ 晚上 沂河边散步</div>
+      <div><b>DAY 2</b>蒙山 或 代村（二选一）<br><span style="color:var(--ink-3);font-size:11px">交通与门票请出行前核实</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="slide" data-act="3" data-bg="" data-title="翻译成一天">
+  <div class="wrap">
+    <p class="kicker rv">08 · 第三幕</p>
+    <h2 class="title rv" style="--d:.05s">把"精神"，<br>翻译成大学生的一天。</h2>
+    <p class="lead rv" style="--d:.12s">四句话，四个场景。都是小事。</p>
+
+    <div class="tr-table">
+      <div class="tr-row">
+        <div class="a">党群同心</div>
+        <div class="b">把别人的事，<b>当成自己的事</b></div>
+        <div class="c">小组作业里那段没人愿意写的部分，你接了。</div>
+      </div>
+      <div class="tr-row">
+        <div class="a">军民情深</div>
+        <div class="b">别当"外来户"，<b>先融进去</b></div>
+        <div class="c">来临沂第一年，学会喝糁、听懂一句方言、交一个本地朋友。</div>
+      </div>
+      <div class="tr-row">
+        <div class="a">水乳交融</div>
+        <div class="b">答应的事，<b>扛到底</b></div>
+        <div class="c">社团答应的事不鸽；队友掉链子，你先补位。</div>
+      </div>
+      <div class="tr-row">
+        <div class="a">生死与共</div>
+        <div class="b">别急着算投入产出，<b>先把事做成</b></div>
+        <div class="c">支教、志愿、帮老乡卖货——先做起来，再算账。</div>
+      </div>
+    </div>
+
+    <p class="punch rv" style="--d:.2s">这些不是"升华"，是<b>同一个动作，在不同年代的尺寸</b>。<br>1947 年那个动作叫推车，2026 年，可能只是"你留下来把活干完"。</p>
+  </div>
+</section>
+
+<section class="slide" data-act="3" data-bg="" data-title="五件事">
+  <div class="wrap">
+    <p class="kicker rv">09 · 可执行</p>
+    <h2 class="title rv" style="--d:.05s">五件事，<br>做一件就算数。</h2>
+
+    <div class="doit rv" style="--d:.1s">
+      <div class="doit-head">
+        <p style="font-size:12px;color:var(--ink-3);letter-spacing:.14em">勾一下，试试看（会记住）</p>
+        <p class="cnt"><b id="cntNum">0</b>/ 5 已开始</p>
+      </div>
+      <div class="doit-list" id="doitList">
+        <div class="task" data-k="1"><div class="box"></div><div class="what">走一次红色路线</div><div class="meta"><b>1 天</b>学生证 + 公交</div><div class="meta"><b>产出</b>手绘地图 / vlog</div></div>
+        <div class="task" data-k="2"><div class="box"></div><div class="what">采访一位老人</div><div class="meta"><b>2 小时</b>手机录音</div><div class="meta"><b>产出</b>3 分钟口述史</div></div>
+        <div class="task" data-k="3"><div class="box"></div><div class="what">给外地同学讲一次</div><div class="meta"><b>15 分钟</b>就是这份东西</div><div class="meta"><b>产出</b>一次班会分享</div></div>
+        <div class="task" data-k="4"><div class="box"></div><div class="what">帮老区卖一次货</div><div class="meta"><b>1 周</b>社群 + 短视频</div><div class="meta"><b>产出</b>一次团购，20 单也算</div></div>
+        <div class="task" data-k="5"><div class="box"></div><div class="what">用专业做一件作品</div><div class="meta"><b>一学期</b>你的专业</div><div class="meta"><b>产出</b>设计 / 代码 / 纪录片</div></div>
+      </div>
+      <div class="doit-foot">
+        <p class="punch2" id="doitMsg">这五件事，任何一件做完，你就不是在"学"它，是在"用"它。</p>
+        <button class="reset" id="resetDoit">清 空</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="slide" data-act="3" data-bg="" data-title="不土的三种办法">
+  <div class="wrap">
+    <p class="kicker rv">10 · 创新</p>
+    <h2 class="title rv" style="--d:.05s">让沂蒙"不土"的三种办法。</h2>
+    <p class="lead rv" style="--d:.12s">一个好的判断标准：这东西，19 岁的人愿不愿意转发。</p>
+
+    <div class="ways">
+      <div class="way rv tilt" style="--d:.1s">
+        <p class="no">A / 数字化</p>
+        <h4>让它能被"进"去</h4>
+        <p>支前路 VR 重走、老照片 AI 修复与上色、口述史数据库——每个村一位老人，每人 10 分钟。</p>
+        <p>红色研学小程序：打卡 + 地图 + 音频导览。</p>
+        <p class="ex">成本最低的起点：一个周末，录 5 位老人。</p>
+      </div>
+      <div class="way rv tilt" style="--d:.2s">
+        <p class="no">B / 设计化</p>
+        <h4>让它能被"带走"</h4>
+        <p>把"小推车 / 红嫂 / 煎饼"做成 IP：帆布包、冰箱贴、盲盒、咖啡杯。</p>
+        <p>一个判断标准：外地同学会不会愿意花钱买、带回宿舍。</p>
+        <p class="ex">最容易出圈的：把车辙印做成一条帆布包肩带。</p>
+      </div>
+      <div class="way rv tilt" style="--d:.3s">
+        <p class="no">C / 叙事化</p>
+        <h4>让它能被"转发"</h4>
+        <p>短视频、播客、剧本杀、沉浸式实景演出——红嫂家乡已经做了实景演出。</p>
+        <p>年轻人不是不爱红色故事，是不爱<b>被讲</b>的红色故事。</p>
+        <p class="ex">把"豆选"做成一个三分钟桌游，比十块展板管用。</p>
+      </div>
+    </div>
+
+    <p class="punch rv" style="--d:.4s">传承不是复读，是<b>再翻译</b>。否则我们只是在给博物馆增加藏品。</p>
+  </div>
+</section>
+
+<section class="slide never" data-act="4" data-bg="" data-title="三个别">
+  <div class="never-wrap">
+    <ul id="neverList">
+      <li>
+        <span class="n">01</span>
+        <p>别把精神讲成形容词堆砌。</p>
+        <small>说"伟大"是最省力、也最无效的表达。说一个人、一件事、一口鏊子。</small>
+      </li>
+      <li>
+        <span class="n">02</span>
+        <p>别把老区讲成苦情戏。</p>
+        <small>沂蒙人不需要被同情，需要被看见。他们今天开卡车、做直播、搞研发，不是等着被缅怀的人。</small>
+      </li>
+      <li>
+        <span class="n">03</span>
+        <p>别把传承做成打卡。</p>
+        <small>在纪念馆拍九宫格，不等于你懂了。真正的传承，发生在你做出选择的那一秒。</small>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<section class="push" id="push" data-act="5" data-bg="night" data-title="把车推过去">
+  <div class="push-stage">
+    <div class="push-ui">
+      <h2>八十年前，<br>他们把车推过了长江。</h2>
+      <p>按住 → 往前推</p>
+    </div>
+
+    <div class="push-words" id="pushWords">
+      <span>党群同心</span><span>军民情深</span><span>水乳交融</span><span>生死与共</span>
+    </div>
+    <div class="push-road"><i id="pushRoad"></i></div>
+
+    <div class="push-cart" id="pushCart">
+      <svg viewBox="66 86 426 226" style="stroke:var(--ink);fill:none;stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round">
+        <g class="wheel" id="pushWheel">
+          <circle cx="140" cy="250" r="58"/>
+          <circle cx="140" cy="250" r="6"/>
+          <g opacity=".55">
+            <line x1="140" y1="192" x2="140" y2="308"/>
+            <line x1="82" y1="250" x2="198" y2="250"/>
+            <line x1="99" y1="209" x2="181" y2="291"/>
+            <line x1="99" y1="291" x2="181" y2="209"/>
+          </g>
+        </g>
+        <path d="M140 192 L 402 168"/>
+        <path d="M140 250 L 402 226"/>
+        <path d="M402 168 L 402 226"/>
+        <path d="M402 168 L 476 146"/>
+        <path d="M140 192 L 140 156"/>
+        <path d="M92 156 L 196 152"/>
+        <path d="M168 168 C 186 126 250 112 292 126 C 322 136 340 152 344 166"/>
+        <path d="M206 128 C 220 106 258 100 278 110"/>
+      </svg>
+    </div>
+
+    <div class="push-end" id="pushEnd">
+      <h2>这条路，<br><em>还没走完。</em></h2>
+      <p>如果明天需要你推一次车，你推得动吗？</p>
+    </div>
+  </div>
+</section>
+
+<section class="slide" data-act="5" data-bg="night" data-title="附录">
+  <div class="wrap" style="max-width:900px">
+    <p class="kicker rv">附录 · 不上台的部分</p>
+    <h2 class="title rv" style="--d:.05s">数据与出处。</h2>
+    <p class="lead rv" style="--d:.1s">一个准确的数字，胜过十个模糊的数字。不确定的，就说"据当地纪念馆统计"。</p>
+
+    <div class="rv" style="--d:.15s;margin-top:36px">
+      <details>
+        <summary>数据核对表（上台前逐条打勾）</summary>
+        <table class="data-tb">
+          <tr><th>数据</th><th>本稿所用</th><th>出处</th></tr>
+          <tr><td>沂蒙精神内涵</td><td>党群同心、军民情深、水乳交融、生死与共</td><td>2022 年山东省第十二次党代会概括</td></tr>
+          <tr><td>习近平考察临沂</td><td>2013 年 11 月 25 日，华东革命烈士陵园、金兰物流基地</td><td>新华社 / 央视报道</td></tr>
+          <tr><td>2024 年再提</td><td>"保护和运用好红色资源，大力弘扬沂蒙精神"</td><td>2024 年 5 月考察山东</td></tr>
+          <tr><td>参军 / 支前 / 烈士</td><td>21.4 万人 / 120 万人次 / 10.5 万人</td><td>央视《焦点访谈》2021</td></tr>
+          <tr><td>淮海战役支前</td><td>543 万民工、88 万辆小推车、4.3 亿斤粮</td><td>军史常见表述，建议注明"据统计"</td></tr>
+          <tr><td>临沂 GDP</td><td>2024 年 6556 亿元，山东第 5</td><td>临沂市政府新闻发布会 2025</td></tr>
+          <tr><td>临沂商城</td><td>2024 年交易额 6605 亿元、物流总额 10074 亿元</td><td>临沂市政府官网</td></tr>
+          <tr><td>代村</td><td>2024 年产值 38 亿、集体纯收入 1.6 亿、人均 7 万多</td><td>《光明日报》2025-02-27</td></tr>
+          <tr><td>九间棚</td><td>海拔 640 米、9 间石棚</td><td>地方资料，建议再核</td></tr>
+          <tr><td>渊子崖</td><td>1941 年 12 月，147 人牺牲，312 户</td><td>地方史料，建议再核</td></tr>
+        </table>
+      </details>
+
+      <details>
+        <summary>主要资料来源</summary>
+        <ul class="srcs">
+          <li>《沂蒙精神：党同人民群众血肉联系的生动诠释》，中国共产党新闻网，2025</li>
+          <li>央视《焦点访谈：老区新颜 唱响沂蒙颂歌新乐章》，2021</li>
+          <li>临沂市人民政府新闻办"十四五"系列主题新闻发布会，2025</li>
+          <li>《光明日报》代村报道，2025-02-27</li>
+          <li>华东革命烈士陵园 / 沂蒙革命纪念馆 展陈说明</li>
+        </ul>
+      </details>
+
+      <details>
+        <summary>这份网页是怎么做的</summary>
+        <ul class="srcs">
+          <li>纯 HTML / CSS / JavaScript 手写，无任何外部框架与 CDN，断网可打开</li>
+          <li>7 张背景图为 AI 生成，统一压暗至 20% 透明度当氛围层，不承担叙事</li>
+          <li>交互：滚动驱动、卡片翻转、豆选拖拽、小车变形、按压推车</li>
+        </ul>
+      </details>
+    </div>
+
+    <p class="credit">
+      沂蒙精神的传承与创新 · 临沂大学 沂蒙文化课实操作业<br>
+      2026
+    </p>
+  </div>
+</section>
+
+</main>
+
+<div class="dou" id="dou">
+  <button class="dou-close" id="douClose">关 闭 ✕</button>
+  <div style="text-align:center">
+    <h3>1942 年，这个村要选一个村长。</h3>
+    <p class="hint">没人识字。所以每人发一颗豆子，碗放在身后——<br>你投给谁，谁也看不见。</p>
+  </div>
+  <div class="dou-stage" id="douStage">
+    <div class="bowl" data-b="1"><div class="beans"></div><span class="bowl-label">候选人 甲</span></div>
+    <div class="bowl" data-b="2"><div class="beans"></div><span class="bowl-label">候选人 乙</span></div>
+    <div class="bowl" data-b="3"><div class="beans"></div><span class="bowl-label">候选人 丙</span></div>
+    <div class="bean" id="bean"></div>
+  </div>
+  <div class="dou-result" id="douResult">
+    <p>你刚刚做的这件事，叫<b>豆选</b>。<br>它让一群一辈子低头的人，第一次抬起了头。</p>
+    <span>—— 这就是"党群同心"的起点，不是宣传，是公平</span>
+  </div>
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
